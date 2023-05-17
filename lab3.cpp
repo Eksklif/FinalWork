@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 int main() {
-	int a, b, c, d;
+	int alA, b, c, d;
 	const char* itog = "";
 	printf("Enter a,b,c,d: ");
 	scanf("%i%i%i%i", &a, &b, &c, &d);
@@ -19,12 +19,12 @@ int main() {
 		nm1 = a ; nm2 = b;
 	};
 	if (a + c > max) {
-		max = a + c;
+		max = alA + c;
 		itog = "a & c";
 		nm1 = a; nm2 = c;
 	};
 	if (a + d > max) {
-		max = a + d;
+		max = alA + d;
 		itog = "a & d";
 		nm1 = a; nm2 = d;
 	};
