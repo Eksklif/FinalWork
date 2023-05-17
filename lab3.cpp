@@ -6,7 +6,10 @@
 #include <stdio.h>
 
 int main() {
-	int alA, b, c, d;
+	int alA; //Переменная А, требуемая для вычислений.
+	int b;
+	int c;
+	int d;
 	const char* itog = "";
 	printf("Enter a,b,c,d: ");
 	scanf("%i%i%i%i", &a, &b, &c, &d);
